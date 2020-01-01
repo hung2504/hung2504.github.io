@@ -1,43 +1,58 @@
-<!DOCTYPE html public "display of affection from creativejs">
-  <head>
-    <meta charset="uft-8" />
-    <meta name="theme-color" content="#536878" />
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>Chuc mung nam moi</title>
-    <link href="css/fireworks.css" rel="stylesheet">
-    <link rel="manifest" href="manifest.json">
-  </head>
-  <body>
-    <aside id="library">
-      <img src="images/nightsky.png" id="nightsky" />
-      <img src="images/big-glow.png" id="big-glow" />
-      <img src="images/small-glow.png" id="small-glow" />
-    </aside>
-    <main id="welcome-back" class="isPaused">
-      <h1 id="nguyenhung3">Nhấn liên tục vào màn hình</h1>
-      <h2 id="nguyenhung4" class="nguyenhung">Chúc mừng năm mới 2020</h2>
-      <!-- Tại vì mình có chỉnh sửa chút trong code nên mình để tên mình nha. vẫn dựa trên source gốc của http://lab.aerotwist.com/canvas/fireworks/ -->
-      <p>Nguyễn Hùng </p>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to 2020</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="countdown.css" type="text/css"/>
+    <p><iframe src="https://www.nhaccuatui.com/mh/auto/i0CnlOWwzBkj" width="1" height="1" frameborder="0" allowfullscreen allow="autoplay"></iframe></p>
+</head>
+<!-- //Head -->
+
+<!-- Body -->
+<body>
+	<div class="firework" id="firework">
+	    <div class="container" style="z-index: 9">
+	        <h1>Năm 2020 Chỉ Còn</h1>
+		    <div class="wrapper">
+		        <div class="clock">
+		            <div class="column days">
+		                <div class="timer" id="days"></div>
+		                <div class="text">NGÀY</div>
+		            </div>
+		            <div class="timer days">:</div>
+		            <div class="column">
+		                <div class="timer" id="hours"></div>
+		                <div class="text">GIỜ</div>
+		            </div>
+		            <div class="timer">:</div>
+		            <div class="column">
+		                <div class="timer" id="minutes"></div>
+		                <div class="text">PHÚT</div>
+		            </div>
+		            <div class="timer">:</div>
+		            <div class="column">
+		                <div class="timer" id="seconds"></div>
+		                <div class="text">GIÂY</div>
+		            </div>
+		        </div>
+		    </div>
+	    </div>
+	</div>
+    <!-- Custom-JavaScript-File-Links -->
+		<script src="jquery-3.2.1.min.js"></script>
+		<script src="jquery.fireworks.js"></script>
+		<!-- phao hoa -->
+		<script>	
+			$('#firework').fireworks();   
+		</script>
+        <script type="text/javascript" src="moment.js"></script>
+        <script type="text/javascript" src="moment-timezone-with-data.js"></script>
+        <script type="text/javascript" src="timer.js"></script>
+    <!-- //Custom-JavaScript-File-Links -->
+    <main>
+    <p> Nguyễn Hùng </p>
     </main>
-  </body>
-  <script src="js/requestanimframe.js"></script>
-  <script src="js/fireworks.js"></script>
-  <script src="js/jquery-3.2.1.min.js"></script>
-  <script>
-    if ('serviceWorker' in navigator) {
-      console.log("Will service worker register?");
-      navigator.serviceWorker.register('service-worker.js').then(function(reg){
-        console.log("Yes it did.");
-      }).catch(function(err) {
-        console.log("No it didn't. This happened: ", err)
-      });
-    }
-  </script>
-  <script>
-     $(document).ready(function(){
-     $("canvas").click(function(){
-     $("#nguyenhung4").removeClass('nguyenhung').addClass("nguyenhung1");
-     });
-     });
-  </script>
+</body>
+<!-- //Body -->
 </html>
