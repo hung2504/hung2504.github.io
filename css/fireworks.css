@@ -51,7 +51,7 @@ main {
 main h1 {
 	color: white;
 	opacity: 1;
-	animation: fadeOut 10s forwards;
+	animation: fadeOut 20s forwards;
 	-webkit-animation:  fadeOut 10s forwards;
 	-webkit-user-select: none;
     -moz-user-select: none;
