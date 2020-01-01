@@ -1,43 +1,94 @@
-<!DOCTYPE html public "display of affection from creativejs">
-  <head>
-    <meta charset="uft-8" />
-    <meta name="theme-color" content="#536878" />
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>Chuc mung nam moi</title>
-    <link href="css/fireworks.css" rel="stylesheet">
-    <link rel="manifest" href="manifest.json">
-  </head>
-  <body>
-    <aside id="library">
-      <img src="images/nightsky.png" id="nightsky" />
-      <img src="images/big-glow.png" id="big-glow" />
-      <img src="images/small-glow.png" id="small-glow" />
-    </aside>
-    <main id="welcome-back" class="isPaused">
-      <h1 id="huygin3">Nhấn liên tục vào màn hình</h1>
-      <h2 id="huygin4" class="huygin">Chúc mừng năm mới 2020</h2>
-      <!-- Tại vì mình có chỉnh sửa chút trong code nên mình để tên mình nha. vẫn dựa trên source gốc của http://lab.aerotwist.com/canvas/fireworks/ -->
-      <p>Nguyen Hung </p>
-    </main>
-  </body>
-  <script src="js/requestanimframe.js"></script>
-  <script src="js/fireworks.js"></script>
-  <script src="js/jquery-3.2.1.min.js"></script>
-  <script>
-    if ('serviceWorker' in navigator) {
-      console.log("Will service worker register?");
-      navigator.serviceWorker.register('service-worker.js').then(function(reg){
-        console.log("Yes it did.");
-      }).catch(function(err) {
-        console.log("No it didn't. This happened: ", err)
-      });
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="vi">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!--
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  -->
+  <title>Hiệu ứng CSS 3D</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+<p><iframe src="https://www.nhaccuatui.com/mh/background/L0G5DzIXoFf3" width="1" height="1" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+<style>
+body {
+	background-image: url("img/sn.jpg");
+} 
+
+</style>
+  <script type="text/javascript" charset="utf-8">
+    function hasClassName(inElement, inClassName)
+    {
+        var regExp = new RegExp('(?:^|\\s+)' + inClassName + '(?:\\s+|$)');
+        return regExp.test(inElement.className);
+    }
+
+    function addClassName(inElement, inClassName)
+    {
+        if (!hasClassName(inElement, inClassName))
+            inElement.className = [inElement.className, inClassName].join(' ');
+    }
+
+    function removeClassName(inElement, inClassName)
+    {
+        if (hasClassName(inElement, inClassName)) {
+            var regExp = new RegExp('(?:^|\\s+)' + inClassName + '(?:\\s+|$)', 'g');
+            var curClasses = inElement.className;
+            inElement.className = curClasses.replace(regExp, ' ');
+        }
+    }
+
+    function toggleClassName(inElement, inClassName)
+    {
+        if (hasClassName(inElement, inClassName))
+            removeClassName(inElement, inClassName);
+        else
+            addClassName(inElement, inClassName);
+    }
+
+    function toggleShape()
+    {
+      var shape = document.getElementById('shape');
+      if (hasClassName(shape, 'ring')) {
+        removeClassName(shape, 'ring');
+        addClassName(shape, 'cube');
+      } else {
+        removeClassName(shape, 'cube');
+        addClassName(shape, 'ring');
+      }
+      
+      var stage = document.getElementById('stage');
+      if (hasClassName(shape, 'ring'))
+        stage.style.webkitTransform = 'translateZ(-200px)';
+      else
+        stage.style.webkitTransform = '';
     }
   </script>
-  <script>
-     $(document).ready(function(){
-     $("canvas").click(function(){
-     $("#NguyenHung").removeClass('nguyenhung').addClass("nguyenhung");
-     });
-     });
-  </script>
+</head>
+<body>
+
+  <div style="text-align: right;padding: 15px;"><a href="#" class="classname" onclick="toggleShape()">Đổi kiểu</a></div>
+  
+  <div id="container">
+    <div id="stage">
+      <div id="shape" class="cube backfaces">
+        <div class="plane one"></div>
+        <div class="plane two"></div>
+        <div class="plane three"></div>
+        <div class="plane four"></div>
+        <div class="plane five"></div>
+        <div class="plane six"></div>
+        <div class="plane seven"></div>
+        <div class="plane eight"></div>
+        <div class="plane nine"></div>
+        <div class="plane ten"></div>
+        <div class="plane eleven"></div>
+        <div class="plane twelve"></div>
+      </div>
+    </div>
+  </div>
+
+</body>
 </html>
