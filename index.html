@@ -27,12 +27,17 @@
     <!--Theme style-->
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <style type="text/css">
+        .dropdown .dropdown-menu li:hover a{
+            color:#C5CA3B;
+        }
+    </style>
 </head>
 <body>
 <div class="the-garden">
     <header id="header col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="home-menu">
-             <nav class="navbar-core navbar-white navbar-v1 headroom headroom--not-bottom headroom--pinned headroom--top" style="position: fixed;width: 100%;">
+             <nav class="navbar-core navbar-white navbar-v1 headroom headroom--not-bottom headroom--pinned headroom--top" >
                 <div class="s-wrapper">
                     <div class="container">
                         <div class="s-inner clearfix">
@@ -69,12 +74,19 @@
                                          <li class="">
                                             <a href="our-gallery.html">OurGallery</a>
                                         </li>
+                                         <li class="dropdown">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> Account</a>
+                                             <ul class="dropdown-menu">
+                                                <li data-toggle="modal" data-target="#myModal10"><a href="#"><span class="glyphicon glyphicon-log-in" style="font-size: 18px; margin: 5px;"></span> Login</a></li>
+                                                <li data-toggle="modal" data-target="#myModal100"><a href="#"><span class="glyphicon glyphicon-user" style="font-size: 18px; margin: 5px"></span> Sign Up</a></li>
+                                            </ul>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="pull-right u-cart">
                                 <div class="ic-enjoy1 ">
-                                    <input type="text" placeholder="Search for ..." style="    width: 290px;
+                                    <input type="text" placeholder="Search for ..." style="    width: 170px;
                                                 border: 1px solid #000;
                                                 border-radius: 5px;
                                                 height: 38px;
@@ -305,6 +317,7 @@
             </div>
         </div>
     </section>
+
     <section class="about-us about-us-portfolio">
         <div class="container">
             <div class="title-content title-font">
@@ -458,142 +471,239 @@
             </div>
     </footer>
  <div id="myModal2" class="modal fade" role="dialog" style="border-radius: 0;">
-                <div class="modal-dialog" style="width: 1100px;">
+    <div class="modal-dialog" style="width: 1100px;">
 
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header" style="background: #2A2935">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title" style="text-align: center;font-size: 24px;
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header" style="background: #2A2935">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title" style="text-align: center;font-size: 24px;
+                line-height: 35px;
+                color: #FFFFFF;
+                ">Giỏ Hàng</h4>
+            </div>
+            <div class="modal-body">
+                <table style="width:100%">
+                    <tr style="border-bottom: 2px solid">
+                        <th style="font-weight: bold;
+                            font-size: 24px;
                             line-height: 35px;
-                            color: #FFFFFF;
-                            ">Giỏ Hàng</h4>
-                        </div>
-                        <div class="modal-body">
-                            <table style="width:100%">
-                                <tr style="border-bottom: 2px solid">
-                                    <th style="font-weight: bold;
-                                                font-size: 24px;
-                                                line-height: 35px;
-                                                text-align: left;
-                                                color: #555368;
-                                                ">Danh Sách Sản Phẩm
-                                    </th>
-                                    <th style="font-weight: bold;
-                                font-size: 16px;
-                                line-height: 23px;
-                                color: #555368;">Giá
-                                    </th>
-                                    <th style="font-weight: bold;
-                                    font-size: 16px;
-                                    line-height: 23px;text-align: left;
-                                    color: #555368;">Số Lượng
-                                    </th>
-                                    <th style="font-weight: bold;
+                            text-align: left;
+                            color: #555368;
+                            ">Danh Sách Sản Phẩm
+                        </th>
+                        <th style="font-weight: bold;
+                            font-size: 16px;
+                            line-height: 23px;
+                            color: #555368;">Giá
+                        </th>
+                        <th style="font-weight: bold;
+                            font-size: 16px;
+                            line-height: 23px;text-align: left;
+                            color: #555368;">Số Lượng
+                        </th>
+                        <th style="font-weight: bold;
+                            font-size: 16px;
+                            line-height: 23px;
+                            color: #555368;">Yêu Cầu
+                        </th>
+                    </tr>
+                    <tr>
+                        <td style="padding: 20px 0;">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="images/85.png" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <p style="font-weight: bold;
+                                        font-size: 12px;
+                                        line-height: 18px;
+                                        color: #555368;
+                                        padding-top: 10px;
+                                        padding-bottom: 10px;
+                                        ">Bánh Kem</p>
+                                    <p style="font-weight: normal;
+                                        font-size: 13px;
+                                        line-height: 16px;
+                                        text-align: justify;
+                                        color: #555368;
+                                         padding-top: 10px;
+                                        padding-bottom: 10px;">18 CM</p>
+                                    <p style="font-weight: normal;
+                                        font-size: 12px;
+                                        line-height: 18px;
+                                         padding-top: 10px;
+                                        padding-bottom: 10px;
+                                        color: #555368;">Trang trí nến, giấy và đĩa</p>
+                                </div>
+                            </div>
+
+                        </td>
+                        <td>200,000 VNĐ</td>
+                        <td><img src="images/86.png" alt=""></td>
+                        <td>Một ít kem thêm. ...</td>
+                    </tr>
+
+                </table>
+                <div class="clearfix" style="margin-top: 100px;">
+                    <div style="float: left;    margin-top: 16px;">
+                        <ul>
+                            <li style="display: inline-block">
+
+                                <button style=" background: #000000;
+                                                border-radius: 30px;
+                                                border: 1px;
+                                                padding: 15px 30px;
+                                                font-weight: bold;
                                                 font-size: 16px;
                                                 line-height: 23px;
-                                                color: #555368;">Yêu Cầu
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <td style="padding: 20px 0;">
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <img src="images/85.png" alt="">
-                                            </div>
-                                            <div class="col-md-8">
-                                                <p style="font-weight: bold;
-                            font-size: 12px;
-                            line-height: 18px;
-                            color: #555368;
-                            padding-top: 10px;
-                            padding-bottom: 10px;
-                            ">Bánh Kem</p>
-                                                <p style="font-weight: normal;
-                            font-size: 13px;
-                            line-height: 16px;
-                            text-align: justify;
-                            color: #555368;
-                             padding-top: 10px;
-                            padding-bottom: 10px;">18 CM</p>
-                                                <p style="font-weight: normal;
-                            font-size: 12px;
-                            line-height: 18px;
-                             padding-top: 10px;
-                            padding-bottom: 10px;
-                            color: #555368;">Trang trí nến, giấy và đĩa</p>
-                                            </div>
-                                        </div>
-
-                                    </td>
-                                    <td>200,000 VNĐ</td>
-                                    <td><img src="images/86.png" alt=""></td>
-                                    <td>Một ít kem thêm. ...</td>
-                                </tr>
-
-                            </table>
-                            <div class="clearfix" style="margin-top: 100px;">
-                                <div style="float: left;    margin-top: 16px;">
-                                    <ul>
-                                        <li style="display: inline-block">
-
-                                            <button style="    background: #000000;
-                                                        border-radius: 30px;
-                                                        border: 1px;
-                                                        padding: 15px 30px;
-                                                        font-weight: bold;
-                                                    font-size: 16px;
-                                                    line-height: 23px;
-                                                    text-align: justify;
-                                                    color: #FFFFFF;
-
-                                                    ">Xóa giỏ hàng
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div style="float: right">
-                                    <span style="font-weight: bold;
-                                                font-size: 18px;
-                                                line-height: 26px;
-                                                color: #555368;
-                                                ">Mã Khuyến Mãi :</span>  <input type="text" placeholder="Nhập Mã ..." style="    background: #D6D5D1;
-                    border-radius: 30px;
-                    border: 1px;
-                    padding: 13px 20px;
-                    margin-top: 15px;">
-                                </div>
-                            </div>
-                            <hr style="border: 1px solid #000000;">
-                            <div class="clearfix">
-                                <div>
-                                    <p style="font-weight: bold;font-size: 24px;line-height: 35px;color: #6B697B;">Số Lượng : <span style="font-weight: bold;
-                                        font-size: 24px;
-                                        line-height: 35px;
-                                        color: #85848E;
-                                        ">1</span></p>
-                                    <p style="font-weight: bold;font-size: 24px;line-height: 35px;color: #6B697B;">Tổng Tiền : <span style="font-weight: bold;
-                                            font-size: 24px;
-                                            line-height: 35px;
-                                            color: #85848E;
-                                            ">200,000 VNĐ</span></p>
-                                                                            </div>
-                                                                         <a href="check-out.html">    <button style="
-                                            background: #DF564E;
-                                            border: 1px;
-                                             padding: 15px 30px;font-size: 16px;float: right;
-                                            line-height: 23px;
-                                            text-align: justify;
-                                            color: #FFFFFF;
-
-                                            border-radius: 30px;">TIẾP TỤC</button></a>
-                            </div>
-                        </div>
-
+                                                text-align: justify;
+                                                color: #FFFFFF;
+                                                ">Xóa giỏ hàng
+                                </button>
+                            </li>
+                        </ul>
                     </div>
-
+                    <div style="float: right">
+                        <span style="font-weight: bold;
+                            font-size: 18px;
+                            line-height: 26px;
+                            color: #555368;
+                            ">Mã Khuyến Mãi :</span>  <input type="text" placeholder="Nhập Mã ..." style="    background: #D6D5D1;
+                            border-radius: 30px;
+                            border: 1px;
+                            padding: 13px 20px;
+                            margin-top: 15px;">
+                    </div>
+                </div>
+                <hr style="border: 1px solid #000000;">
+                <div class="clearfix">
+                    <div>
+                        <p style="font-weight: bold;font-size: 24px;line-height: 35px;color: #6B697B;">Số Lượng : <span style="font-weight: bold;
+                            font-size: 24px;
+                            line-height: 35px;
+                            color: #85848E;
+                            ">1</span></p>
+                        <p style="font-weight: bold;font-size: 24px;line-height: 35px;color: #6B697B;">Tổng Tiền : <span style="font-weight: bold;
+                            font-size: 24px;
+                            line-height: 35px;
+                            color: #85848E;
+                            ">200,000 VNĐ</span></p>
+                    </div>
+                    <a href="check-out.html">    <button style="
+                            background: #DF564E;
+                            border: 1px;
+                            padding: 15px 30px;font-size: 16px;float: right;
+                            line-height: 23px;
+                            text-align: justify;
+                            color: #FFFFFF;
+                            border-radius: 30px;">TIẾP TỤC</button></a>
                 </div>
             </div>
+
+        </div>
+
+    </div>
+</div>
+<div id="myModal10" class="modal fade" role="dialog" style="border-radius: 0;">
+    <div class="modal-dialog" style="width: 1100px;">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Đóng</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Thành viên đăng nhập</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="well">
+                            <form id="loginForm" novalidate="novalidate">
+                                <div class="form-group"><label for="username" class="control-label">Tài khoản</label><input class="form-control" id="username" name="username" value="" required="" title="Xin vui lòng nhập tên tài khoản" placeholder="vanuhung2504@gmail.com" type="text"><span class="help-block"></span> 
+                                </div>
+                                <div class="form-group"><label for="password" class="control-label">Mật khẩu</label><input class="form-control" id="password" name="password" value="" required="" title="Xin vui lòng nhập mật khẩu" type="password"><span class="help-block"></span> 
+                                </div>
+                                <div id="loginErrorMsg" class="alert alert-error hide">Sai tên tài khoản hay mật khẩu</div>
+                                <div class="checkbox"><label>
+                                    <input name="remember" id="remember" type="checkbox">
+                                            Nhớ thông tin </label>
+                                    <p class="help-block">(Nếu sử dụng máy tính cá nhân)</p>
+                                </div>
+                                   <a href="index.html" class="btn btn-success btn-block">Đăng nhập</a><a href="index.html">Quên mật khẩu?</a>
+                            </form>
+                        </div>
+                    </div>
+                <div class="col-xs-6">
+                    <p data-toggle="modal" data-target="#myModal100"><a href="#" class="btn btn-info btn-block">Đăng ký tài khoản ngay!</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div id="myModal100" class="modal fade" role="dialog" style="border-radius: 0;">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Đóng</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Đăng ký thành viên</h4>
+            </div>
+            <div class="modal-body">
+                <legend><a href="#"><i class="glyphicon glyphicon-globe"></i></a> Đăng ký thành viên!
+               </legend> 
+               <form class="form" role="form"> 
+                    <div class="row"> 
+                        <div class="col-xs-6 col-md-6"> <input class="form-control" name="firstname" placeholder="Họ" required="" autofocus="" type="text"> 
+                        </div> 
+                        <div class="col-xs-6 col-md-6"> <input class="form-control" name="lastname" placeholder="Tên" required="" type="text"> 
+                        </div> 
+                    </div>
+                    <br>
+                    <input class="form-control" name="youremail" placeholder="Email" type="email"> <br>
+                    <input class="form-control" name="password" placeholder="Mật khẩu" type="password"> <br>
+                    <input class="form-control" name="retypepassword" placeholder="Nhập lại mật khẩu" type="password"> <br>
+                    <label for=""> Ngày sinh</label> 
+                    <br>
+                    <div class="row"> 
+                        <div class="col-xs-4 col-md-4"> 
+                            <select class="form-control">              
+                                <option value="Day">Ngày</option>    
+                            </select> 
+                        </div> 
+                   
+                        <div class="col-xs-4 col-md-4"> 
+                            <select class="form-control">              
+                                <option value="Month">Tháng</option>            
+                            </select> 
+                        </div> 
+                     
+                        <div class="col-xs-4 col-md-4"> 
+                            <select class="form-control">              
+                                <option value="Year">Năm</option>            
+                            </select> 
+                        </div> 
+               
+                    </div>
+                    <br>
+                    <label class="radio-inline">          
+                        <input name="sex" id="inlineCheckbox1" value="male" type="radio"> Nam </label> 
+                       
+                    <label class="radio-inline">          
+                        <input name="sex" id="inlineCheckbox2" value="female" type="radio"> Nữ </label> 
+                       
+                    <br> 
+                    <br> 
+                    <button class="btn btn-lg btn-primary btn-block" type="submit"> Đăng ký</button> 
+               </form> 
+                        
+            </div>
+        </div>
+    </div>
 </div>
 <script src="vendor/jquery/dist/jquery.min.js"></script>
 <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
