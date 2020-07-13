@@ -1,0 +1,1367 @@
+@media only screen and (max-width: 1680px) {
+/*-------------------------------------
+            HOME STORE V2
+--------------------------------------*/
+  .home_storev2_logo .mr-logo {
+    margin-right: 0;
+  }
+  /*tips-new*/
+  .popuptext {
+    padding: 21px 10px 10px 26px;
+  }
+  .popuptext h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .popuptext p {
+    margin-bottom: 21px;
+    font-size: 12px;
+  }
+  .popuptext .button {
+    padding: 10px 31px;
+  }
+}
+@media only screen and (max-width: 1440px) {
+/*-------------------------------------
+            HOME SERVICE V2
+--------------------------------------*/
+  .boxV2-small {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .icon-child-boxV2 {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+/*-------------------------------------
+            HOME STORE
+--------------------------------------*/
+  /*out-door*/
+  .out-door .out-door-img button {
+    padding: 12px 20px;
+    font-size: 20px;
+    right: 15px;
+    bottom: 15px;
+  }
+  /*shop-gilt*/
+  .common-point {
+    top: 23%;
+  }
+  .shop-gilt-text {
+    right: 3%;
+  }
+  .common-point h3 {
+    font-size: 21px;
+  }
+  .common-point p {
+    font-size: 12px;
+  }
+  .common-point .button {
+    font-size: 14px;
+    padding: 8px 33px;
+  }
+  .common-point {
+    top: 23%;
+  }
+  .shop-gilt-text1 {
+    left: 2%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+/*-------------------------------------
+            ALL-PAGE
+--------------------------------------*/
+  .container {
+    width: 1200px;
+  }
+  #header>.container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+/*-------------------------------------
+            HOME STORE V2
+--------------------------------------*/
+
+}
+@media only screen and (max-width: 1199px) {
+  /*-------------------------------------
+            HOME SERVICE
+--------------------------------------*/
+  .navbar-core .logo {
+    margin-right: 103px;
+  }
+/*-------------------------------------
+            HOME STORE V2
+--------------------------------------*/
+  .home_storev2_logo .mr-logo {
+    margin-right: 0;
+  }
+  /*benefit*/
+  .benefit .benefit-title {
+    margin-top: 0;
+    font-size: 32px;
+  }
+  .benefit-child a {
+    font-size: 14px;
+  }
+  .benefit-child p {
+    font-size: 12px;
+  }
+  /*tips-new*/
+  .tips-coat {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .popuptext {
+    padding: 57px 25px 38px 46px;
+  }
+  .popuptext h3 {
+    margin-bottom: 20px;
+  }
+  .popuptext p {
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+  .popuptext .button {
+    padding: 12px 43px;
+  }
+  .mr-tips-coat {
+    margin-bottom: 0;
+  }
+  .searchV2{
+    width: 0;
+  }
+  .add-transitions{
+    width: 245px;
+  }
+/*-------------------------------------
+          WATERING YOUR GARDEN
+--------------------------------------*/
+  .watering-gardenCare-list li p {
+    font-size: 16px;
+  }
+  .serviceWatering-left {
+    padding-right: 0;
+  }
+/*-------------------------------------
+         SERVICE PLANTING
+--------------------------------------*/
+  .gardenCare-item-title {
+    font-size: 24px;
+  }
+/*-------------------------------------
+          SERVICE DESIGN
+--------------------------------------*/
+  .serviceDesign-right {
+    padding-left: 0;
+  }
+  .box-design-banner {
+    display: none;
+  }
+/*-------------------------------------
+              ABOUT US
+--------------------------------------*/
+  .ourStory-right {
+    padding: 0;
+    margin-top: 0;
+  }
+/*-------------------------------------
+                 BLOG
+--------------------------------------*/
+  .nd-blog-img {
+    padding-right: 0;
+  }
+  .nd-blog-content {
+    padding-left: 0;
+    padding-top: 0;
+  }
+/*-------------------------------------
+              SHOP FULLWIDTH
+--------------------------------------*/
+  .disabled-banner{
+    display: none;
+  }
+  .box-filter-left{
+    width: 24%;
+  }
+  .box-filter-right{
+    width: 28%;
+  }
+/*-------------------------------------
+                CHECK OUT
+--------------------------------------*/
+  .page-checkOut {
+      padding-top: 20px;
+      padding-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+/*-------------------------------------
+            HOME STORE V2
+--------------------------------------*/
+}
+@media only screen and (max-width: 991px) {
+  .navbar-core .s-inner {
+    position: static;
+  }
+  .navbar-core .s-wrapper {
+    position: relative;
+  }
+  .navbar-core .logo {
+    margin-top: 0;
+    padding: 15px 0;
+  }
+  .navbar-core .hamburger {
+    display: block;
+    position: relative;
+    float: right;
+    margin-top: 17px;
+  }
+  .navbar-core .nav-right {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 10000;
+    background: #fff;
+    margin: 0;
+    border-top: 1px solid #e6e6e6;
+    width: 100%;
+    display: none;
+    padding-bottom: 0;
+  }
+  .navbar-core .nav-right:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .navbar-core .nav-right.opened {
+    display: block;
+  }
+  .navbar-core .u-cart {
+    padding-top: 37px;
+    padding-right: 30px;
+  }
+  .navbar-core .u-cart .ic-cart {
+    display: inline-block;
+  }
+  .navbar-core .navbar-main {
+    width: 100%;
+  }
+  .navbar-core .navbar-menu {
+    border-top: 1px solid #e6e6e6;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+    float: none;
+  }
+  .navbar-core .navbar-menu:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .navbar-core .navbar-menu li {
+    background: #fff;
+    float: left;
+    width: 100%;
+    display: block;
+    margin: 0;
+    border-bottom: 1px solid #e6e6e6;
+    z-index: 0;
+  }
+  .navbar-core .navbar-menu li a {
+    padding: 15px;
+  }
+  .navbar-core .navbar-menu .dropdown .fa {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    display: block;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .navbar-core .navbar-menu .menu-child {
+    position: relative;
+  }
+  .service-half>li>a {
+    padding: 0 !important;
+  }
+  .navbar-core .navbar-menu .menu-child .fa {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    display: block;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .navbar-core .navbar-menu .dropdown .home-list,
+  .navbar-core .navbar-menu .dropdown .service-lift {
+    border: none;
+    border-top: 1px solid #ebebeb;
+  }
+  .navbar-core .navbar-menu .dropdown .dropdown-menu {
+    min-width: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    display: none;
+    position: relative;
+    left: auto;
+    top: auto;
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+    background: #fff;
+    padding: 0 15px !important;
+  }
+  .navbar-core .navbar-menu .dropdown .dropdown-menu li {
+    border-bottom: none;
+  }
+  .navbar-core .navbar-menu .dropdown .dropdown-menu li a {
+    color: #444;
+  }
+  .navbar-core .navbar-menu .dropdown .dropdown-menu li a:hover {
+    background: #fff;
+    color: #8bc052;
+  }
+  .navbar-core .navbar-menu .dropdown .dropdown-menu li a:hover i {
+    visibility: hidden;
+  }
+  .navbar-core .navbar-menu .dropdown .dropdown-menu li:hover ul {
+    position: inherit;
+    top: 0;
+    left: 0;
+  }
+  .navbar-core .navbar-menu .dropdown .open {
+    display: block !important;
+  }
+/*-------------------------------------
+            HOME SERVICE
+--------------------------------------*/
+  .header_service .header-tleft .link-list {
+    padding-right: 13px;
+    padding-left: 8px;
+  }
+  .the-garden-service .about-us {
+    padding-top: 50px;
+  }
+  .latest-blog .group-box-content {
+    padding: 28px 15px 7px 15px;
+  }
+  .latest-blog {
+    padding-top: 45px;
+    padding-bottom: 25px
+  }
+  .title-content{
+    padding-bottom: 24px;
+  }
+  .form-projects {
+    padding-top: 60px;
+    padding-bottom: 60px
+  }
+  .button-projects{
+    margin-top: 10px;
+  }
+  .form-projects {
+    padding-bottom: 40px;
+}
+/*-------------------------------------
+            HOME STORE V2
+--------------------------------------*/
+  .product-left p{
+    margin-right: 15px;
+  }
+  .searchV2{
+    right: 200px;
+  }
+  .add-transitions {
+    width: 185px;
+  }
+  #footerV2>.container {
+    padding-bottom: 20px;
+    padding-top: 36px;
+  }
+  .about-usV3 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+   .tab-control-projects {
+    margin-bottom: 20px;
+  }
+  .title-content h3{
+    margin-bottom: 15px;
+  }
+/*-------------------------------------
+            HOME STORE
+--------------------------------------*/
+  .icon-box .icon-child-store{
+    padding: 0;
+  }
+  .new-product {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .counter-bg {
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  .counter{
+    margin-top: 20px;
+  }
+  .footer-top{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+/*-------------------------------------
+            HOME PORTFOLIO
+--------------------------------------*/
+  .tab-control-projects li{
+    padding:5px 5px;
+  }
+  .about-us {
+    padding-top: 60px;
+  }
+  .project-gallery {
+    padding-top: 0;
+  }
+  #footer-V3 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .footer-V3-icon ul li a{
+    margin: 0 auto 0 5px;
+  }
+/*-------------------------------------
+            HOME SERVICE V2
+--------------------------------------*/
+  /*MENU*/
+  .header-serviceV2 .header-tleft.pull-left {
+    display: none;
+  }
+  .header-serviceV2 .header-tleft.pull-right {
+    margin-right: 15px;
+  }
+  .service-liftV2 {
+    left: 0 !important;
+  }
+  .header-serviceV2 .header-tleft {
+    float: none !important;
+    text-align: center;
+  }
+  /*benefit*/
+  .benefit .benefit-img {
+    padding-right: 0;
+  }
+  .benefit .benefit-text {
+    text-align: center;
+  }
+  /*latest-blog-serviceV2*/
+  .title-contentV2 {
+    text-align: center;
+  }
+  .button-projectsV2 {
+    text-align: center;
+  }
+  /*help-numberV2*/
+  .help-number {
+    text-align: center;
+  }
+  .help-number .live-help,
+  .help-number .button-number {
+    float: none !important;
+  }
+  /*about-usV2*/
+  .boxV2-small {
+    border-right: 0;
+  }
+  .about-usV2 .col-md-3 {
+    margin-bottom: 40px;
+  }
+  /*project-galleryV2*/
+  .op-images-text p {
+    font-size: 14px;
+  }
+  .benefit img{
+    width: inherit;
+    margin:0 auto;
+  }
+  .icon-child-boxV2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .about-usV2 {
+    padding-bottom: 0;
+  }
+  .benefit .benefit-text{
+    padding-bottom: 20px;
+  }
+/*-------------------------------------
+          WATERING YOUR GARDEN
+--------------------------------------*/
+  .home-menu-watering .hamburger-inner,
+  .home-menu-watering .hamburger-inner:after,
+  .home-menu-watering .hamburger-inner:before {
+    background-color: #fff;
+  }
+  .home-menu-watering .navbar-menu>li>a {
+    color: #111;
+  }
+  .mr-watering{
+    margin-top: 60px;
+  }
+/*-------------------------------------
+            SERVICE PLANTING
+--------------------------------------*/
+  .servicePlanting-left {
+    padding-right: 0;
+  }
+  .box-partner {
+    margin-bottom: 30px;
+  }
+  .page-servicePlanting{
+    padding-bottom: 0;
+  }
+  
+/*-------------------------------------
+            CHECK OUT
+--------------------------------------*/
+  .mr-form-tax {
+    margin-bottom: 30px;
+  }
+  .pgContact-text {
+    font-size: 30px;
+  }
+/*-------------------------------------
+              BLOG DETAILS
+--------------------------------------*/
+  .blog_dt_leave .button {
+    margin-bottom: 20px;
+  }
+  .content_blog_details .blog_details_left {
+    padding-right: 15px;
+  }
+  .blog_dt_comments .comment_left {
+    padding-right: 15px;
+  }
+  .comment_nd {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .content_blog_details {
+    margin-top: 50px;
+  }
+/*-------------------------------------
+            SHOP SIDEBAR
+--------------------------------------*/
+  .slidebar-left {
+    margin-bottom: 40px;
+  }
+  .slidebar-left .slideBanner{
+    display: none;
+  }
+/*-------------------------------------
+            ABOUT_US
+--------------------------------------*/
+  .about-us .icon-box .icon-child-box{
+    padding: 8px 8px 8px 8px;
+  }
+/*-------------------------------------
+            GALLERY
+--------------------------------------*/
+  .tab-control-projectsV3 li{
+    padding: 5px;
+  }
+  .project-nameV3 .project-titleV3{
+    margin-bottom: 25px;
+  }
+  .tab-control-projectsV3{
+    margin-bottom: 30px;
+  }
+  .project-galleryV3 {
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+/*-------------------------------------
+            GALLERY_DETAIL
+--------------------------------------*/
+  .page-gallery-detail {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+/*-------------------------------------
+              BLOG
+--------------------------------------*/
+  .content_blog_details {
+    margin-bottom: 30px;
+  }
+/*-------------------------------------
+            PRODUCT DETAILS
+/*--------------------------------------*/
+  .shop-product-reviewDesc{
+    padding-top:50px;
+    padding-bottom: 0;
+  }
+  .details-desc {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .product-review-bottom {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .tab-review{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .pd-details-right{
+    padding-left:15px;
+  }
+  .details-next{
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 767px) {
+/*-------------------------------------
+            HOME SERVICE
+--------------------------------------*/
+  /*home-top*/
+  .header_service .header-tleft {
+    display: none;
+  }
+  .header_service .header-tright {
+    margin-right: 15px;
+  }
+  /*group*/
+  .group-dislay {
+    position: inherit;
+    height: auto;
+  }
+  .group-dislay-box {
+    position: inherit;
+    margin-top: 50px;
+  }
+  .group .group-box {
+    margin-bottom: 30px;
+  }
+  /*latest-blog*/
+  .pd-group-box1,
+  .pd-group-box2 {
+    margin-bottom: 40px;
+  }
+  .latest-projects {
+    padding-top: 0;
+  }
+  .the-garden-service .about-us {
+    padding-top: 10px;
+  }
+  #footer>.container {
+    padding-bottom: 0;
+  }
+  #footer {
+    padding-top: 38px;
+  }
+  #footer .pd-footer-child {
+    padding-bottom: 25px;
+  }
+/*-------------------------------------
+            HOME STORE V2
+--------------------------------------*/
+  /*tips-new*/
+  .tips-child {
+    width: 100%;
+  }
+/*-------------------------------------
+            HOME SERVICE V2
+--------------------------------------*/
+  /*latest-blog-serviceV2*/
+  .latest-blog-serviceV2 .group-box-content {
+    text-align: center;
+  }
+  /*project-galleryV2*/
+  .project-name .project-title,
+  .tab-control-projectsV2 {
+    float: none;
+  }
+  .project-name {
+    text-align: center;
+  }
+  .project-gallery .op-images-text p {
+    display: none;
+  }
+  .ar-dislay:after{
+    display: none;
+  }
+  #map {
+    height: 400px;
+  }
+  .trademark{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .benefit {
+    padding-top: 48px;
+  }
+  .project-name {
+    margin-top: 36px;
+  }
+/*-------------------------------------
+            HOME PORTFOLIO
+--------------------------------------*/
+  /*project-gallery*/
+  .project-gallery .op-images-text p {
+    display: none;
+  }
+  .latest-blog-portfolio .group-box-content {
+    padding: 20px 0 10px 0;
+  }
+  .latest-blog-custom .rps-img{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .latest-blog-custom .row{
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .accordion-dislay {
+    padding: 14px 45px 14px 20px;
+  }
+/*-------------------------------------
+            HOME STORE
+--------------------------------------*/
+  .header-tleft {
+    display: none;
+  }
+  .header-store .header-dropdown {
+    margin-right: 15px;
+  }
+
+/*-------------------------------------
+            SERVICE PLANTING
+--------------------------------------*/
+  .box-gardenCare-img .box-gardenCare-coat {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+  .box-gardenCare-img .box-gardenCare-child {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .page-servicePlanting {
+    padding-top: 40px;
+  }
+/*-------------------------------------
+            SHOPPING CART
+--------------------------------------*/
+  .shopping-cart-img {
+    display: none;
+  }
+  .shopping-cart-quantity {
+    display: none;
+  }
+  .form-type-custom{
+  text-align: center;
+  margin-bottom: 30px;
+  display: block;
+  }
+  .form-cart {
+    float: none!important;
+  }
+  .button-cart {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .pgshopping-cart {
+    margin-top: 50px;
+  }
+/*-------------------------------------
+              CHECK OUT
+--------------------------------------*/
+  .billing-category {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .billing-select {
+    width: 100%;
+  }
+/*-------------------------------------
+            CONTACT
+--------------------------------------*/
+  .pgContact-text {
+    font-size: 36px;
+  }
+  .pgContact-left {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .pgContact-right {
+    text-align: center;
+  }
+  .page-contact {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+   #mapV2 {
+    height: 400px;
+  }
+/*-------------------------------------
+              BLOG DETAILS
+--------------------------------------*/
+  .dt_contact_left,
+  .dt_contact_right {
+    float: none;
+  }
+/*-------------------------------------
+              GALLERY DETAILS
+--------------------------------------*/
+  .dot {
+    margin-bottom: 0;
+    width: 31%;
+  }
+  .mr-dot {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .detail-img .col-md-3 {
+    padding-left: 15px;
+  }
+  .detail-img .col-md-9 {
+    padding-right: 15px;
+    margin-bottom: 3%;
+  }
+  .dot img {
+    width: 100%
+  }
+  
+/*-------------------------------------
+              ABOUT_US
+--------------------------------------*/
+  .ourStory-right {
+    margin-top: 40px;
+  }
+  .ourGardener {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  .ourGardener-title h3 {
+    margin-bottom: 40px;
+  }
+  .clientSay{
+    padding-top:50px;
+    padding-bottom: 50px;
+  }
+  .title-box {
+    margin-bottom: 30px;
+  }
+/*-------------------------------------
+                BLOG
+--------------------------------------*/
+  .blog-item .row{
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .blog-item .col-lg-6{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+/*-------------------------------------
+              SHOP FULLWIDTH
+--------------------------------------*/
+  .slide-left-list li a{
+    margin-right: 20px;
+  }
+  .box-filter-item{
+    padding-bottom: 0;
+  }
+  .shop-fullwidth-filter {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .box-filter-right,
+  .box-filter-left{
+    width: 100%;
+  }
+  .slide-left-list li span{
+    float: none !important;
+  }
+/*-------------------------------------
+           DESIGN RENOVATION
+--------------------------------------*/
+  .page-service-design {
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+  .project-service {
+    padding-bottom: 20px;
+  }
+  .project-service .col-md-3 {
+    margin-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .project-service .row{
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+/*-------------------------------------
+            WATERING YOUR GARDEN
+--------------------------------------*/
+  .accordion-item span{
+    top:32%;
+  }
+  .watering-title {
+    margin-left: 25px;
+  }
+  .page-serviceWatering {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .accordion-watering {
+    border: 1px solid #e9e9e9;
+    padding: 10px 0 0 15px;
+    background: #f7f7f7;
+  }
+/*-------------------------------------
+            SHOP SIDEBAR
+--------------------------------------*/
+  .page-shop-slidebar {
+    padding-top: 50px;
+    padding-bottom: 15px;
+  }
+/*-------------------------------------
+            COMPLETE
+--------------------------------------*/
+  .page-complete {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+/*-------------------------------------
+            HOME SERVICE
+--------------------------------------*/
+  .header_service .header-tright {
+    margin-right: 0;
+  }
+  .u-shop-cart {
+    display: none !important;
+  }
+  .u-cart {
+    padding-right: 0 !important;
+  }
+  .rps-img {
+    width: 100%;
+  }
+  .header-serviceV2 .home-top {
+    display: none;
+  }
+  .header-tright {
+    float: none !important;
+    text-align: center;
+  }
+  .header-tright i {
+    font-size: 14px;
+  }
+  .header-tleft .link-list {
+    padding-right: 10px;
+    padding-left: 7px;
+  }
+  .projects-opacity .projects-optext p {
+    font-size: 14px;
+    padding-top: 8px;
+  }
+  .title-content h3 {
+    font-size: 30px;
+  }
+  .icon-box .col-md-4{
+    width: 100%;
+  }
+/*-------------------------------------
+            HOME STORE
+--------------------------------------*/
+  /*shop-gilt*/
+  .common-point {
+    text-align: center;
+  }
+  .common-point p {
+    display: none;
+  }
+  /*new-product*/
+  .list-product {
+    width: 100%;
+  }
+  .counter-bg {
+    padding-top: 45px;
+    padding-bottom: 30px;
+  }
+  .counter .col-md-3{
+    width: 50%;
+  }
+/*-------------------------------------
+            HOME SERVICE V2
+--------------------------------------*/
+  /*slide-home-serviceV2*/
+  .slide-show-serviceV2 .button {
+    padding: 13px 40px;
+  }
+  /*latest-blog-serviceV2*/
+  .form-projects-textV2 .contact-child {
+    padding: 24px 22px 32px 26px;
+  }
+  .button-projectsV2 .button {
+    padding: 10px 25px;
+    font-size: 13px;
+  }
+  /*help-numberV2*/
+  .live-help h3 {
+    font-size: 21px;
+  }
+  .help-number .help-telephone {
+    margin-bottom: 20px;
+    font-size: 20px
+  }
+  .help-number h3 span {
+    display: block;
+  }
+  .live-help h3 {
+    font-size: 20px;
+  }
+  .live-help p {
+    font-size: 13px;
+  }
+  .help-number .button-number .button {
+    font-size: 13px;
+    padding: 10px 27px;
+  }
+  /*project-galleryV2*/
+  .project-galleryV2 .op-images-text p {
+    display: none;
+  }
+  #footerV2>.container {
+    padding-bottom: 0;
+    padding-top: 30px;
+  }
+  .icon-box .col-md-3{
+    width: 100%;
+  }
+  .icon-child-boxV2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .tab-control-projectsV2 li{
+    padding: 5px 5px;
+  }
+  .benefit img{
+    width: 100%;
+  }
+  .benefit-custom .col-md-6{
+    width: 100%;
+  }
+  .benefit {
+    padding-top: 40px;
+  }
+  .trademarkV2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .about-usV2 .col-md-3 {
+    margin-bottom: 25px;
+  }
+  .mr-img {
+    margin-bottom: 19px;
+  }
+/*-------------------------------------
+            HOME STORE V2
+--------------------------------------*/
+  .home-storeV2 .u-shop-cart {
+    display: none;
+  }
+  .list-productV2 {
+    width: 100%
+  }
+  .searchV2 {
+      right: 120px;
+      top: 33px;
+  }
+  .add-transitions {
+      width: 150px;
+  }
+/*-------------------------------------
+            HOME PORTFOLIO
+--------------------------------------*/
+ 
+/*-------------------------------------
+            WATERING YOUR GARDEN
+--------------------------------------*/
+  .breadcrumb-serviceV3 {
+    padding-top: 32.5%;
+    padding-bottom: 13.5%;
+  }
+  .watering-title{
+    padding-top: 0;
+  }
+/*-------------------------------------
+            SERVICE PLANTING
+--------------------------------------*/
+  .planting-title {
+    font-size: 15px !important;
+  }
+  .box-gardenCare-img .box-gardenCare-coat {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+  .box-gardenCare-img .box-gardenCare-child {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .gardenCare-title,
+  .gardenCare-item-title {
+    font-size: 20px;
+  }
+  .ourService-title {
+    font-size: 20px;
+  }
+  .planting-style {
+    margin-bottom: 30px;
+  }
+/*-------------------------------------
+          WATERING YOUR GARDEN
+--------------------------------------*/
+  .watering-gardenCare-list li p {
+    font-size: 14px;
+  }
+  .watering-download-title {
+    font-size: 16px;
+  }
+  .mr-watering {
+    margin-bottom: 40px;
+  }
+/*-------------------------------------
+            SHOPPING CART
+--------------------------------------*/
+  .shopping-cart-price {
+    display: none;
+  }
+  .btn-updateCart {
+    padding: 10px 25px;
+  }
+  .btn-apply {
+    padding: 10px 44px;
+  }
+  .form-type-cart>.btn-checkOut {
+    margin-left: 0;
+  }
+  .form-cart-item p {
+    font-size: 14px;
+  }
+  .form-cart-item h5 {
+    font-size: 12px;
+  }
+/*-------------------------------------
+            CHECK OUT
+--------------------------------------*/
+  .form-type input {
+    margin-bottom: 10px;
+  }
+  .page-checkOut {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+/*-------------------------------------
+            COMING SOON
+--------------------------------------*/
+  .comingSoon-email {
+    margin-top: 30px;
+  }
+/*-------------------------------------
+            ABOUT US
+--------------------------------------*/
+  .ourStory {
+    padding-top: 40px;
+  }
+  .ourGardener .col-md-3 {
+    width: 100%
+  }
+  .counter {
+    margin-top: 0;
+  }
+/*-------------------------------------
+                BLOG
+--------------------------------------*/
+  .blog-item-button .button {
+    font-size: 11px;
+    padding: 9px 16px;
+  }
+  .blog-item {
+    margin-bottom: 20px;
+  }
+  .blog-search{
+    margin-bottom: 20px;
+  }
+  .blog-sidebar .well {
+    margin-bottom: 20px;
+  }
+  .blog-item .col-lg-6{
+    width: 100%;
+  }
+  .nd-blog-content {
+    margin-top: 25px;
+  }
+/*-------------------------------------
+              BLOG DETAILS
+--------------------------------------*/
+.btn-comment {
+    margin-bottom: 7px;
+}
+.blog_dt_comments {
+    margin-bottom: 40px;
+}
+/*-------------------------------------
+              GALLERY DETAIL
+--------------------------------------*/
+  .prev,
+  .next {
+    padding: 8px 14px;
+  }
+  .prev {
+    right: 60px;
+  }
+  .detail-service-item h4 {
+    font-size: 15px;
+  }
+  .detail-service-item p {
+    font-size: 14px;
+  }
+/*-------------------------------------
+             SHOP SIDEBAR
+--------------------------------------*/
+  .top-product-left,
+  .gird-list {
+    float: none !important;
+  }
+  .top-product {
+    text-align: center;
+  }
+  .top-product-left {
+    margin-bottom: 25px;
+  }
+  .box-slider-left {
+    padding-top: 30px;
+  }
+  .content-box-product .col-md-4{
+    width: 50%;
+  }
+/*-------------------------------------
+          DESIGN RENOVATION
+--------------------------------------*/
+  .design-gardenCare .col-sm-6{
+    width: 100%;
+  }
+  .watering-gardenCare-list li{
+    padding: 15px 25px;
+  }
+/*-------------------------------------
+               ERROR 404
+--------------------------------------*/
+  .desc-404 {
+    font-size: 15px;
+    margin-top: 24px;
+  }
+  .title-404 {
+    font-size: 50px;
+  }
+/*-------------------------------------
+              GALLERY
+--------------------------------------*/
+  .tab-control-projectsV3 {
+    margin-bottom: 25px;
+  }
+  .project-nameV3 .project-titleV3 {
+    margin-bottom: 24px;
+  }
+  .project-content {
+    padding-bottom: 30px;
+  }
+/*-------------------------------------
+       SHOP FULLWIDTH
+--------------------------------------*/
+  .slide-left-list {
+    margin-top: 10px;
+  }
+  .slideTag h3 {
+      margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+/*-------------------------------------
+            HOME SERVICE
+--------------------------------------*/
+  .navbar-core .logo {
+    margin-right: 40px;
+  }
+/*-------------------------------------
+            HOME STORE
+--------------------------------------*/
+  /*out-door*/
+  .out-door .out-door-img button {
+    padding: 10px 18px;
+    font-size: 12px;
+  }
+  .counter-bg {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+/*-------------------------------------
+            HOME PORTFOLIO
+--------------------------------------*/
+  /*slide-show-portfolio*/
+  .slide-show-portfolio p {
+    font-size: 14px;
+  }
+  .title-content {
+    padding-bottom: 20px;
+  }
+  .latest-blog {
+    padding-top: 30px;
+  }
+  .about-us {
+    padding-top: 46px;
+  }
+/*-------------------------------------
+            HOME SERVICE V2
+--------------------------------------*/
+  /*slide-home-serviceV2*/
+  .slide-serviceV2 h3,
+  .slide-serviceV2 h4 {
+    font-size: 14px !important;
+  }
+/*-------------------------------------
+            HOME STORE V2
+--------------------------------------*/
+  .home-storeV2 .ic-search{
+    display: none;
+  }
+/*-------------------------------------
+          DESIGN RENOVATION
+--------------------------------------*/
+  .project-service-title .gardenCare-title {
+    margin-bottom: 31px;
+  }
+/*-------------------------------------
+            SHOP FULLWIDTH
+--------------------------------------*/
+  .product-content a{
+    font-size: 15px;
+  }
+  .product-content p{
+    font-size: 17px;
+  }
+}
