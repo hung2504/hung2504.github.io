@@ -1,0 +1,139 @@
+.footer_area {
+  background: #303339;
+  overflow: hidden;
+}
+
+.footer_widgets {
+  padding: 80px 0px 50px 0px;
+}
+
+.footer_widgets .footer_wd_inner .col-lg-3:nth-child(2) .f_link_widget {
+  padding-left: 35px;
+}
+
+.f_title {
+  margin-bottom: 20px;
+}
+
+.f_title h3 {
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+.f_title h3:before {
+  content: "";
+  width: 30px;
+  height: 1px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background: #f195b2;
+}
+
+.f_about_widget p {
+  font-size: 14px;
+  line-height: 23px;
+  font-family: "Open Sans", sans-serif;
+  color: #a8a8a8;
+  letter-spacing: .28px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.f_about_widget .nav {
+  margin-top: 35px;
+}
+
+.f_about_widget .nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.f_about_widget .nav li a {
+  display: inline-block;
+  text-align: center;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  color: #fff;
+  border: 1px solid #7b7b7c;
+  font-size: 16.92px;
+  line-height: 35px;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.f_about_widget .nav li:hover a {
+  color: #f195b2;
+  border-color: #f195b2;
+}
+
+.f_about_widget .nav li:last-child {
+  margin-right: 0px;
+}
+
+.f_link_widget .list_style li {
+  margin-bottom: 10px;
+}
+
+.f_link_widget .list_style li a {
+  font-size: 14px;
+  color: #a8a8a8;
+  letter-spacing: .28px;
+  font-family: "Open Sans", sans-serif;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.f_link_widget .list_style li:hover a {
+  color: #f195b2;
+}
+
+.f_contact_widget h4 {
+  font-size: 18px;
+  color: #a8a8a8;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.f_contact_widget p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #a8a8a8;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0px;
+}
+
+.f_contact_widget h5 {
+  font-size: 14px;
+  line-height: 26px;
+  color: #a8a8a8;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0px;
+}
+
+.footer_copyright .copyright_inner {
+  overflow: hidden;
+  border-top: 1px solid #3b3e43;
+  padding: 32px 0px 30px 0px;
+}
+
+.footer_copyright .copyright_inner .float-left h5 {
+  font-size: 14px;
+  color: #767676;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0px;
+}
+
+.footer_copyright .copyright_inner .float-right a {
+  color: #f195b2;
+  font-family: "Open Sans", sans-serif;
+}
