@@ -1,14 +1,4 @@
 /*
-  Template Name: The Garden - HTML Template
-  Version: 1.0
-  Author: Azlink TeamZone
-  Website: Azlinvn@gmail.com
-  Contact: Azlinvn@gmail.comom
-  Follow: Azlinvn@gmail.com
-  Like: Azlinvn@gmail.com
-  License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
-*/
-/*
 ======================================
   * CSS TABLE CONTENT *
 ======================================
@@ -1874,29 +1864,6 @@ footer{
 }
 
 /*END COUNTER*/
-/*FOOTER-TOP*/
-
-.footer-top {
-    background: url("../images/bgfooter-top.jpg") no-repeat center center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-
-.footer-top-title {
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Be Vietnam', serif;
-}
-
-.footer-top-desc {
-    font-weight: 500;
-    margin-top: 5px;
-    margin-bottom: 50px;
-}
 
 /*input garden*/
 
@@ -2136,71 +2103,6 @@ footer{
     font-weight: 400;
     color: #FFA101;
     font-size: 120px !important;
-}
-
-/*FOOTER-V3*/
-
-#footer-V3 {
-    padding-top: 96px;
-    padding-bottom: 76px;
-}
-
-.footer-V3-content {
-    text-align: center;
-}
-
-.footer-V3-content h4 {
-    font-size: 24px;
-    font-weight: 700;
-    color: #FFA101;
-    margin-bottom: 13px;
-}
-
-.footer-V3-content p {
-    margin-bottom: 35px;
-}
-
-.footer-V3-icon {
-    margin-bottom: 35px;
-}
-
-.footer-V3-icon ul li {
-    display: inline-block;
-}
-
-.footer-V3-icon ul li a {
-    height: 50px;
-    width: 50px;
-    border: 1px solid #c2c2c2;
-    border-radius: 100px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    -o-border-radius: 100px;
-    margin: 0 auto 0 17px;
-    display: inline-block;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-
-.footer-V3-icon ul li a:hover {
-    background: #FFA101;
-    border-color: #FFA101;
-}
-
-.footer-V3-icon ul li a:hover i {
-    color: #fff;
-}
-
-.footer-V3-icon ul li i {
-    margin-top: 17px;
-    color: #c2c2c2;
-}
-
-.footer-V3-color {
-    color: #c2c2c2;
-    font-weight: 500;
 }
 
 /* ---- PROJECT-GALLERY ---- */
